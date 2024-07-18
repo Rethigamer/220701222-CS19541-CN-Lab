@@ -1,0 +1,405 @@
+Microsoft Windows [Version 10.0.22621.3880]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rethi>arp -a
+
+Interface: 192.168.56.1 --- 0x2
+  Internet Address      Physical Address      Type
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+
+Interface: 172.16.8.212 --- 0xc
+  Internet Address      Physical Address      Type
+  172.16.8.1            7c-5a-1c-cf-be-45     dynamic
+  172.16.8.117          50-9a-4c-34-d7-71     dynamic
+  172.16.11.23          50-9a-4c-35-0d-e7     dynamic
+  172.16.11.33          fc-5c-ee-18-93-18     dynamic
+  172.16.11.45          50-9a-4c-37-fa-2e     dynamic
+  172.16.11.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+Interface: 192.168.137.1 --- 0x13
+  Internet Address      Physical Address      Type
+  192.168.137.247       ac-74-b1-de-10-e3     static
+  192.168.137.255       ff-ff-ff-ff-ff-ff     static
+  224.0.0.2             01-00-5e-00-00-02     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+C:\Users\rethi>hostname
+Rethi_Laptop
+
+C:\Users\rethi>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Rethi_Laptop
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : ExpressVPN TAP Adapter
+   Physical Address. . . . . . . . . : 00-FF-8E-FD-FF-59
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : ExpressVPN TUN Driver
+   Physical Address. . . . . . . . . :
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek Gaming GbE Family Controller
+   Physical Address. . . . . . . . . : 84-69-93-68-4D-1F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::687b:cf58:fd9:78bf%12(Preferred)
+   IPv4 Address. . . . . . . . . . . : 172.16.8.212(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.252.0
+   Lease Obtained. . . . . . . . . . : 18 July 2024 08:11:17
+   Lease Expires . . . . . . . . . . : 18 July 2024 09:11:13
+   Default Gateway . . . . . . . . . : 172.16.8.1
+   DHCP Server . . . . . . . . . . . : 172.16.8.1
+   DHCPv6 IAID . . . . . . . . . . . : 109341075
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2A-1C-71-3C-84-69-93-68-4D-1F
+   DNS Servers . . . . . . . . . . . : 172.16.8.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Ethernet 3:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Physical Address. . . . . . . . . : 0A-00-27-00-00-02
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::556d:6903:b040:b1ac%2(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 403308583
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2A-1C-71-3C-84-69-93-68-4D-1F
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 16-13-33-8C-CB-AB
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 16-13-33-8C-CB-BB
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::5452:d154:ffa5:3ec8%19(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.137.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : MediaTek MT7921 Wi-Fi 6 802.11ax PCIe Adapter
+   Physical Address. . . . . . . . . : 14-13-33-8C-CB-BB
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+C:\Users\rethi>nbtstat -a
+
+Displays protocol statistics and current TCP/IP connections using NBT
+(NetBIOS over TCP/IP).
+
+NBTSTAT [ [-a RemoteName] [-A IP address] [-c] [-n]
+        [-r] [-R] [-RR] [-s] [-S] [interval] ]
+
+  -a   (adapter status) Lists the remote machine's name table given its name
+  -A   (Adapter status) Lists the remote machine's name table given its
+                        IP address.
+  -c   (cache)          Lists NBT's cache of remote [machine] names and their IP addresses
+  -n   (names)          Lists local NetBIOS names.
+  -r   (resolved)       Lists names resolved by broadcast and via WINS
+  -R   (Reload)         Purges and reloads the remote cache name table
+  -S   (Sessions)       Lists sessions table with the destination IP addresses
+  -s   (sessions)       Lists sessions table converting destination IP
+                        addresses to computer NETBIOS names.
+  -RR  (ReleaseRefresh) Sends Name Release packets to WINS and then, starts Refresh
+
+  RemoteName   Remote host machine name.
+  IP address   Dotted decimal representation of the IP address.
+  interval     Redisplays selected statistics, pausing interval seconds
+               between each display. Press Ctrl+C to stop redisplaying
+               statistics.
+
+C:\Users\rethi>nbtstat -r
+
+    NetBIOS Names Resolution and Registration Statistics
+    ----------------------------------------------------
+
+    Resolved By Broadcast     = 0
+    Resolved By Name Server   = 1
+
+    Registered By Broadcast   = 197
+    Registered By Name Server = 0
+C:\Users\rethi>nslookup www.rajalakshmi.org
+Server:  UnKnown
+Address:  172.16.8.1
+
+Non-authoritative answer:
+Name:    www.rajalakshmi.org
+Address:  14.99.10.232
+
+
+C:\Users\rethi>pathping
+
+Usage: pathping [-g host-list] [-h maximum_hops] [-i address] [-n]
+                [-p period] [-q num_queries] [-w timeout]
+                [-4] [-6] target_name
+
+Options:
+    -g host-list     Loose source route along host-list.
+    -h maximum_hops  Maximum number of hops to search for target.
+    -i address       Use the specified source address.
+    -n               Do not resolve addresses to hostnames.
+    -p period        Wait period milliseconds between pings.
+    -q num_queries   Number of queries per hop.
+    -w timeout       Wait timeout milliseconds for each reply.
+    -4               Force using IPv4.
+    -6               Force using IPv6.
+
+C:\Users\rethi>pathping -g
+A target name or address must be specified.
+
+Usage: pathping [-g host-list] [-h maximum_hops] [-i address] [-n]
+                [-p period] [-q num_queries] [-w timeout]
+                [-4] [-6] target_name
+
+Options:
+    -g host-list     Loose source route along host-list.
+    -h maximum_hops  Maximum number of hops to search for target.
+    -i address       Use the specified source address.
+    -n               Do not resolve addresses to hostnames.
+    -p period        Wait period milliseconds between pings.
+    -q num_queries   Number of queries per hop.
+    -w timeout       Wait timeout milliseconds for each reply.
+    -4               Force using IPv4.
+    -6               Force using IPv6.
+
+C:\Users\rethi>ping
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   this header is used.
+    -S srcaddr     Source address to use.
+    -c compartment Routing compartment identifier.
+    -p             Ping a Hyper-V Network Virtualization provider address.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
+
+
+C:\Users\rethi>route
+
+Manipulates network routing tables.
+
+ROUTE [-f] [-p] [-4|-6] command [destination]
+                  [MASK netmask]  [gateway] [METRIC metric]  [IF interface]
+
+  -f           Clears the routing tables of all gateway entries.  If this is
+               used in conjunction with one of the commands, the tables are
+               cleared prior to running the command.
+
+  -p           When used with the ADD command, makes a route persistent across
+               boots of the system. By default, routes are not preserved
+               when the system is restarted. Ignored for all other commands,
+               which always affect the appropriate persistent routes.
+
+  -4           Force using IPv4.
+
+  -6           Force using IPv6.
+
+  command      One of these:
+                 PRINT     Prints  a route
+                 ADD       Adds    a route
+                 DELETE    Deletes a route
+                 CHANGE    Modifies an existing route
+  destination  Specifies the host.
+  MASK         Specifies that the next parameter is the 'netmask' value.
+  netmask      Specifies a subnet mask value for this route entry.
+               If not specified, it defaults to 255.255.255.255.
+  gateway      Specifies gateway.
+  interface    the interface number for the specified route.
+  METRIC       specifies the metric, ie. cost for the destination.
+
+All symbolic names used for destination are looked up in the network database
+file NETWORKS. The symbolic names for gateway are looked up in the host name
+database file HOSTS.
+
+If the command is PRINT or DELETE. Destination or gateway can be a wildcard,
+(wildcard is specified as a star '*'), or the gateway argument may be omitted.
+
+If Dest contains a * or ?, it is treated as a shell pattern, and only
+matching destination routes are printed. The '*' matches any string,
+and '?' matches any one char. Examples: 157.*.1, 157.*, 127.*, *224*.
+
+Pattern match is only allowed in PRINT command.
+Diagnostic Notes:
+    Invalid MASK generates an error, that is when (DEST & MASK) != DEST.
+    Example> route ADD 157.0.0.0 MASK 155.0.0.0 157.55.80.1 IF 1
+             The route addition failed: The specified mask parameter is invalid. (Destination & Mask) != Destination.
+
+Examples:
+
+    > route PRINT
+    > route PRINT -4
+    > route PRINT -6
+    > route PRINT 157*          .... Only prints those matching 157*
+
+    > route ADD 157.0.0.0 MASK 255.0.0.0  157.55.80.1 METRIC 3 IF 2
+             destination^      ^mask      ^gateway     metric^    ^
+                                                         Interface^
+      If IF is not given, it tries to find the best interface for a given
+      gateway.
+    > route ADD 3ffe::/32 3ffe::1
+
+    > route CHANGE 157.0.0.0 MASK 255.0.0.0 157.55.80.5 METRIC 2 IF 2
+
+      CHANGE is used to modify gateway and/or metric only.
+
+    > route DELETE 157.0.0.0
+    > route DELETE 3ffe::/32
+
+C:\Users\rethi>route PRINT
+===========================================================================
+Interface List
+ 14...00 ff 8e fd ff 59 ......ExpressVPN TAP Adapter
+ 21...........................ExpressVPN TUN Driver
+ 12...84 69 93 68 4d 1f ......Realtek Gaming GbE Family Controller
+  2...0a 00 27 00 00 02 ......VirtualBox Host-Only Ethernet Adapter
+ 16...16 13 33 8c cb ab ......Microsoft Wi-Fi Direct Virtual Adapter
+ 19...16 13 33 8c cb bb ......Microsoft Wi-Fi Direct Virtual Adapter #2
+ 22...14 13 33 8c cb bb ......MediaTek MT7921 Wi-Fi 6 802.11ax PCIe Adapter
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0       172.16.8.1     172.16.8.212     25
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+       172.16.8.0    255.255.252.0         On-link      172.16.8.212    281
+     172.16.8.212  255.255.255.255         On-link      172.16.8.212    281
+    172.16.11.255  255.255.255.255         On-link      172.16.8.212    281
+     192.168.56.0    255.255.255.0         On-link      192.168.56.1    281
+     192.168.56.1  255.255.255.255         On-link      192.168.56.1    281
+   192.168.56.255  255.255.255.255         On-link      192.168.56.1    281
+    192.168.137.0    255.255.255.0         On-link     192.168.137.1    281
+    192.168.137.1  255.255.255.255         On-link     192.168.137.1    281
+  192.168.137.255  255.255.255.255         On-link     192.168.137.1    281
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link      192.168.56.1    281
+        224.0.0.0        240.0.0.0         On-link      172.16.8.212    281
+        224.0.0.0        240.0.0.0         On-link     192.168.137.1    281
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link      192.168.56.1    281
+  255.255.255.255  255.255.255.255         On-link      172.16.8.212    281
+  255.255.255.255  255.255.255.255         On-link     192.168.137.1    281
+===========================================================================
+Persistent Routes:
+  None
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    331 ::1/128                  On-link
+  2    281 fe80::/64                On-link
+ 12    281 fe80::/64                On-link
+ 19    281 fe80::/64                On-link
+ 19    281 fe80::5452:d154:ffa5:3ec8/128
+                                    On-link
+  2    281 fe80::556d:6903:b040:b1ac/128
+                                    On-link
+ 12    281 fe80::687b:cf58:fd9:78bf/128
+                                    On-link
+  1    331 ff00::/8                 On-link
+  2    281 ff00::/8                 On-link
+ 12    281 ff00::/8                 On-link
+ 19    281 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+C:\Users\rethi>ping 192.168.211.1
+
+Pinging 192.168.211.1 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.211.1:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\Users\rethi>ping 192.16.8.211
+
+Pinging 192.16.8.211 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.16.8.211:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
